@@ -1,8 +1,8 @@
 ## Please note:
-*This script is a pure fun project.
+**This script is a pure fun project.
 Though it works, you may only use this for small projects or quick setups since it is not
-made to handel complicated nesting structures or even file inherits.  
-It's nice for a quick setup though.*
+made to handle complex nesting structures or even file inherits.  
+It's nice for a fast start though.**
 
 ## So, what is this?
 Well, this is a simple ruby script for lazy admins.
