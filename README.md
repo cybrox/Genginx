@@ -15,8 +15,8 @@ your serverblocks anyways.
 
 ## Server block configuration 
 * `{string } root:` Document root. If you don't start this with an "/", the generator will add the ngix base in front
-* `{integer} http:` Defines if your server is accessable via http, if http and https are false, the generator will handle http as true
-* `{integer} https:` Defines if your server is accessable via https, you need to specify a 'sslcrt' parameter if you use this
+* `{boolean} http:` Defines if your server is accessable via http, if http and https are false, the generator will handle http as true
+* `{boolean} https:` Defines if your server is accessable via https, you need to specify a 'sslcrt' parameter if you use this
 * `{string } sslcrt:` Defines the name of your ssl .crt and .key file that should be stored in your nginx.ssld
 * `{boolean} php:` Will include the PHP block if this is set to true
 * `{boolean} rails:` If this is set to true, the default fallback to index.html/.php will not be included
